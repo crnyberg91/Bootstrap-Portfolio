@@ -39,15 +39,15 @@ $(document).ready(function() {
         <div class="row">
             <div class="col-9">
                 <div class="card bg-dark text-white">
-                    <img src="assets/images/abstract1.jpg" class="card-img" alt="abstract1">
+                    <img src="assets/images/starwarsGame.png" class="card-img" alt="starwarsGame">
                     <div class="card-img-overlay">
-                        <h5 class="card-title"><a href='#'>Coming Soon</a></h5>
+                        <h5 class="card-title"><a href="https://crnyberg91.github.io/unit-4-game/">Star Wars Game</a></h5>
                     </div>
                 </div>
                 <div class="card bg-dark text-white">
-                    <img src="assets/images/abstract2.jpg" class="card-img" alt="abstract2">
+                    <img src="assets/images/watchPad.png" class="card-img" alt="watchPad">
                     <div class="card-img-overlay">
-                        <h5 class="card-title"><a href='#'>Coming Soon</a></h5>
+                        <h5 class="card-title"><a href="#">WatchPad</a></h5>
                     </div>
                 </div>
                 <div class="card bg-dark text-white">
