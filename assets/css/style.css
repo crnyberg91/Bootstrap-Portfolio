@@ -116,3 +116,9 @@ footer {
 a {
 	color: whitesmoke;
 }
+
+@media screen and (max-width: 768px) {
+    .topP {
+        margin-top: 300px;
+    }
+}
