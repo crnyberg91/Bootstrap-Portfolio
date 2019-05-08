@@ -15,19 +15,19 @@ $(document).ready(function() {
 		$(".container").empty();
 		$(".container").append(`<div class="header-row">
 				  <h1>About</h1>
-			      </div>
-			      <img src="https://via.placeholder.com/300" class="img-fluid" alt="about-pic" />
+                  </div>
+                  <div class="about-pic-container">
+                  <img src="assets/images/aboutPic.jpg" class="img-fluid aboutPic" alt="about-pic" />
+                  </div>
 			    <p>
 				I am Christopher Nyberg, a Latino American coder striving for a career in full stack web development. Although I never
 				worked in the web development field professionally before, my prior education and job experience has given me the strengths
 				to work in various environments. This includes a solid background in customer service, coordinating with team members even
 				across departments, and maintaining a professional work ethic. I hope you can consider me as a strong candidate for the
-				position in the company, my drive is to always be an essential member of the team. Thank you for your time. I am Christopher
-				Nyberg, a Latino American coder striving for a career in full stack web development. Although I never worked in the web
-				development field professionally before, my prior education and job experience has given me the strengths to work in various
-				environments. This includes a solid background in customer service, coordinating with team members even across departments,
-				and maintaining a professional work ethic. I hope you can consider me as a strong candidate for the position in the company,
-				my drive is to always be an essential member of the team. Thank you for your time.
+                position in the company, my drive is to always be an essential member of the team. Thank you for your time. 
+                </p>
+                <p>
+                Currently, this page is under constant construction, so feel free to check in regularly to keep up to date with my progress.
 			    </p>`);
 	};
 
