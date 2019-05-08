@@ -50,10 +50,10 @@ $(document).ready(function() {
                         <h5 class="card-title"><a href="#">WatchPad</a></h5>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <img src="assets/images/abstract3.jpg" class="card-img" alt="abstract3">
+                <div class="card bg-dark text-white third-project">
+                    <img src="assets/images/triviaGame.png" class="card-img" alt="abstract3">
                     <div class="card-img-overlay">
-                        <h5 class="card-title"><a href='#'>Coming Soon</a></h5>
+                        <h5 class="card-title"><a href='https://crnyberg91.github.io/TriviaGame/'>Trivia Game</a></h5>
                     </div>
                 </div>
                 <div class="card bg-dark text-white">
