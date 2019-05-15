@@ -51,15 +51,15 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="card bg-dark text-white third-project">
-                    <img src="assets/images/triviaGame.png" class="card-img" alt="abstract3">
+                    <img src="assets/images/triviaGame.png" class="card-img" alt="triviaGame">
                     <div class="card-img-overlay">
                         <h5 class="card-title"><a href='https://crnyberg91.github.io/TriviaGame/'>Trivia Game</a></h5>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <img src="assets/images/abstract4.jpg" class="card-img" alt="abstract4">
+                <div class="card bg-dark text-white third-project">
+                    <img src="assets/images/liriNode.png" class="card-img" alt="liriNode">
                     <div class="card-img-overlay">
-                        <h5 class="card-title"><a href='#'>Coming Soon</a></h5>
+                        <h5 class="card-title"><a href='https://github.com/crnyberg91/liri-node-app'>Coming Soon</a></h5>
                     </div>
                 </div>
                 <div class="card bg-dark text-white">
