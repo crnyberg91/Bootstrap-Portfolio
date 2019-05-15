@@ -59,7 +59,7 @@ $(document).ready(function() {
                 <div class="card bg-dark text-white third-project">
                     <img src="assets/images/liriNode.png" class="card-img" alt="liriNode">
                     <div class="card-img-overlay">
-                        <h5 class="card-title"><a href='https://github.com/crnyberg91/liri-node-app'>Coming Soon</a></h5>
+                        <h5 class="card-title"><a href='https://github.com/crnyberg91/liri-node-app'>Liri-Node</a></h5>
                     </div>
                 </div>
                 <div class="card bg-dark text-white">
