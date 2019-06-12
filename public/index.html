@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Nyberg's Portfolio</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="index.html">Christopher Nyberg</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<!--active-->
+					<a class="nav-link" id="aboutLink" href="#">About</a>
+					<!--<span class="sr-only">(current)</span>-->
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="portfolioLink" href="#">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="contactLink" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container col-6">
+		<div class='row header-row'>
+			<h1></h1>
+		</div>
+		<div class="aboutP">
+			<p class='topP'>
+				I am Christopher Nyberg, a Latino American coder striving for a career in full stack web development.
+				Although I never
+				worked in the web development field professionally before, my prior education and job experience has
+				given me the strengths
+				to work in various environments. This includes a solid background in customer service, coordinating with
+				team members even
+				across departments, and maintaining a professional work ethic. I hope you can consider me as a strong
+				candidate for the
+				position in the company, my drive is to always be an essential member of the team. Thank you for your
+				time.
+			</p>
+			<p>
+				Currently, this page is under constant construction, so feel free to check in regularly to keep up to
+				date with my progress.
+			</p>
+		</div>
+		<div class="row">
+			<div class="card portfolio-card" style="width: 18rem;">
+				<img src="assets/images/friendFinder.png" class="card-img-top" alt="friendFinder">
+				<div class="card-body">
+					<p class="card-text" hidden>Some quick example text to build on the card title and make up the bulk
+						of the
+						card's content.</p>
+					<a class="card-btn" href="#" target="_blank">deploy</a>
+					<a class="card-btn" href="#" target="_blank">github</a>
+				</div>
+			</div>
+			<div class="card portfolio-card" style="width: 18rem;">
+				<img src="assets/images/nibbleNeighbor.png" class="card-img-top" alt="nibbleNeighbor">
+				<div class="card-body">
+					<p class="card-text" hidden>Some quick example text to build on the card title and make up the bulk
+						of the
+						card's content.</p>
+					<a class="card-btn" href="#" target="_blank">deploy</a>
+					<a class="card-btn" href="#" target="_blank">github</a>
+				</div>
+			</div>
+			<div class="card portfolio-card" style="width: 18rem;">
+				<img src="assets/images/watchPad.png" class="card-img-top" alt="watchPad">
+				<div class="card-body">
+					<p class="card-text" hidden>Some quick example text to build on the card title and make up the bulk
+						of the
+						card's content.</p>
+					<a class="card-btn" href="#" target="_blank">deploy</a>
+					<a class="card-btn" href="#" target="_blank">github</a>
+				</div>
+			</div>
+			<div class="card portfolio-card" style="width: 18rem;">
+				<img src="assets/images/liriNode.png" class="card-img-top" alt="liriNode">
+				<div class="card-body">
+					<p class="card-text" hidden>Some quick example text to build on the card title and make up the bulk
+						of the
+						card's content.</p>
+					<a class="card-btn" href="#" target="_blank">deploy</a>
+					<a class="card-btn" href="#" target="_blank">github</a>
+				</div>
+			</div>
+			<div class="card portfolio-card" style="width: 18rem;">
+				<img src="assets/images/triviaGame.png" class="card-img-top" alt="triviaGame">
+				<div class="card-body">
+					<p class="card-text" hidden>Some quick example text to build on the card title and make up the bulk
+						of the
+						card's content.</p>
+					<a class="card-btn" href="#" target="_blank">deploy</a>
+					<a class="card-btn" href="#" target="_blank">github</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class='row bottom-row'>
+		</div>
+	</div>
+
+	<div class="modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleFormControlInput1">Name</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1"
+								placeholder="Your Name Here">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlInput1">Email address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1"
+								placeholder="name@example.com">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Message</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+						<button type="button" class="btn btn-success">Submit</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="about-footer">
+		<h4>Contact Me</h4>
+		<a target="_blank" href="https://github.com/crnyberg91">
+			<img id="githubIMG" src="assets/images/github.png" />
+		</a>
+		<a target="_blank" href="https://www.linkedin.com/in/christopher-nyberg-099350115/">
+			<img id="githubIMG" src="assets/images/linkedin.png" />
+		</a>
+		<h5>Copyright©</h5>
+		<div class="about-pic-container">
+			<img src="assets/images/aboutPic.jpg" class="img-fluid aboutPic" alt="about-pic" />
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>

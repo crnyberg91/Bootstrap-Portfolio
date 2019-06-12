@@ -26,7 +26,7 @@ h5 {
 	font-family: "Quicksand", sans-serif;
 }
 body {
-	background-image: url(../images/real_cf/real_cf.png);
+	background-color: #ffffff;
 	font-family: "Merriweather", serif;
 }
 
@@ -40,8 +40,16 @@ img #githubIMG {
 }
 
 .header-row {
+	border-top: 0.3rem solid #666666;
+	margin-top: 0.5rem;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+}
+.bottom-row {
 	border-bottom: 0.3rem solid #666666;
 	margin-bottom: 0.5rem;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
 }
 
 .container {
@@ -77,23 +85,17 @@ img #githubIMG {
 	top: 170px;
 }
 
-.card {
+.portfolio-card {
 	float: left;
-	height: 300px;
-	width: 280px;
+	height: 210px;
+	width: 100px;
 	margin: 1rem;
+	text-align: center;
 }
 
-.card-title {
-	text-align: center;
-	/* background: #fff; */
-	color: whitesmoke;
-	margin-top: 14.5rem;
-	padding: 10px 10px;
-}
-.card-title a:hover {
-	color: #41dd5b;
-	text-decoration: none;
+.card-btn{
+	margin: 1rem;
+	color: black;
 }
 
 .third-project img {
@@ -115,6 +117,12 @@ footer {
 
 a {
 	color: whitesmoke;
+}
+.card-btn:hover {
+	text-decoration: none;
+}
+.card-img-top:hover{
+	color:black;
 }
 
 @media screen and (max-width: 768px) {
