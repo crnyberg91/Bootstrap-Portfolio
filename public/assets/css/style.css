@@ -140,8 +140,10 @@ a {
 .card:hover .info-card {
 	opacity: .9;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .topP {
         margin-top: 300px;
     }
-}
+} */
+
+/* @media screen and (max-width: ) */
